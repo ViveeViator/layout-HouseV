@@ -1,0 +1,62 @@
+
+.cta {
+    margin: 180px 0;
+    position: relative;
+}
+.cta_box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.cta_box_text {
+    width: 535px;
+    height: 114px;
+    margin-right: 30px;
+}
+
+
+
+.cta_title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        color: var(--accent-text-color);
+        
+        margin-bottom: 30px;
+        padding-left: 400px;
+
+}
+.cta_text {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+.cta_text_small {
+
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        display: inline-block;
+        
+    
+        text-align: center;
+    
+        color: #E7E7E7;
+
+    max-width: 255px;
+    height: 50px;
+    
+}
+
+
+.cta_box_btn {
+    margin-bottom: 30px;
+}

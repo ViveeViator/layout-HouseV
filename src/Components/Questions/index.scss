@@ -1,0 +1,26 @@
+.questions { 
+    margin: 90px 0;
+}
+.questions_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.questions_title{
+font-family: 'Playfair Display';
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+color: var(--accent-text-color);
+margin-left: 400px;
+margin-bottom: 50px;
+
+}
+.questions_text{
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+color: var(--two-color);
+width: 255px;
+display: inline-block;
+}

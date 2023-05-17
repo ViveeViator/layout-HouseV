@@ -1,0 +1,27 @@
+.clip { 
+    margin: 90px 0;
+    position: relative;
+
+}
+.clip::after{
+        content: url(../../assets/art/IV.png);
+            position: absolute;
+            top: 185px;
+            right: 180px;
+            background: cover
+}
+.clip_box {
+background-image: url(../../assets/art/Rectangle-5.png);
+width: 720px;
+height: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+margin: auto;
+}
+
+
+.clip_play {
+
+    margin: 275px 310px;
+}

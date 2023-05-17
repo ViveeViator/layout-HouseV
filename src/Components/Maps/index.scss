@@ -1,0 +1,29 @@
+.maps { 
+margin: 90px 0;
+position: relative;
+}
+
+.maps::after{
+        content: url(../../assets/art/V.png);
+            position: absolute;
+            top: 130px;
+            left: 260px;
+            background: cover
+}
+
+.maps_title {
+margin-left: 400px;
+font-family: 'Playfair Display';
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+color: var(--accent-text-color);
+margin-bottom: 136px;
+}
+.maps_box {
+    background-color: #626262;
+    width: 1110px;
+    height: 358px;
+    margin: auto;
+
+}
