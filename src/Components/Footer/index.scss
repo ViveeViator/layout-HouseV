@@ -1,0 +1,66 @@
+.footer { 
+
+    padding: 60px 0;
+    background: #2D343C;
+}
+.footer_box {
+    display: flex;
+    justify-content: center;
+}
+.footer_logo {
+font-family: 'Post No Bills Jaffna SemiBold';
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+color: var(--text-color);
+}
+
+.footer_top {
+font-family: 'Raleway';
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.12em;
+
+color: var(--text-color);
+}
+
+
+.footer_text {
+font-family: 'Raleway';
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.05em;
+color: var(--text-color);
+}
+.footer_span{
+    color: var(--accent-text-color);
+}
+.footer_box_svg {
+display: flex;
+flex-direction: column;
+}
+.footer_item_link{
+margin-bottom: 15px;
+font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+
+    color: var(--text-color);
+}
+
+.footer_list_svg{
+    display: flex;
+}
+
+.footer_svg:not(:last-child) {
+    margin-right: 20px;
+}
+.footer_box_text:not(:last-child) {
+    margin-bottom: 15px;
+}
+.footer_left {
+    margin-left: 166px;
+}

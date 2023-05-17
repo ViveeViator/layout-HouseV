@@ -1,0 +1,64 @@
+.baner { 
+    // background-image: url('/art/rectangle.png') ;
+    background-image: url("/assets/art/rectangle.png");
+    height: 840px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.baner_box {
+    // max-width: 1200px;
+    width: 100%;
+    padding-top: 296px;
+    text-align: center;
+}
+.baner_title {
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    width: 556px;
+
+    color: var(--accent-text-color);
+
+    margin: auto;
+}
+
+.baner_icon_mouse {
+    margin-top: 100px  ;
+    
+}
+
+.baner_list {
+    padding-top: 200px;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color:var(--text-color);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding-right: 75px;
+}
+.baner_maps {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+.baner_maps_img{
+    margin-right: 18px;
+}
+.baner_tel_img{
+    margin-right: 15px;
+}
+.baner_tel {
+    display: flex;
+    align-items: center;
+}
