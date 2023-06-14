@@ -1,16 +1,21 @@
 .baner { 
-    // background-image: url('/art/rectangle.png') ;
-    background-image: url("/assets/art/rectangle.png");
-    height: 840px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url("/assets/art/rectangle.png");
+height: 840px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
 }
 .baner_box {
-    // max-width: 1200px;
-    width: 100%;
-    padding-top: 296px;
-    text-align: center;
+    
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 500px;
 }
 .baner_title {
 
