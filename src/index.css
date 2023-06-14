@@ -32,9 +32,11 @@ a {
     color: inherit;
 }
 
-/* .container {
+.container {
     max-width: 1200px;
-} */
+    width: 100%;
+    padding: 10px;
+}
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
