@@ -14,7 +14,6 @@ justify-content: space-between;
 }
 .header_logo {
     font-family: 'Post No Bills Jaffna SemiBold';
-        font-style: normal;
         font-weight: 600;
         font-size: 36px;
         line-height: 54px;
@@ -26,15 +25,9 @@ justify-content: space-between;
     text-decoration: none
 }
 .header_text {
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 400;
         font-size: 12px;
         line-height: 14px;
-        
-    
         letter-spacing: 0.12em;
-    
         color:var(--text-color);
 }
 .header_list{
@@ -45,9 +38,6 @@ justify-content: space-between;
 }
 
 .header_item {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.05em;
@@ -57,5 +47,4 @@ justify-content: space-between;
 }
 .header_item:not(:last-child) {
     margin-right: 40px;
-    
 }

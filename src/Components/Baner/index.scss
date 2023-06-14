@@ -10,52 +10,40 @@ background-size: cover;
 
 }
 .baner_box {
-    
-        display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-            height: 500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+
 }
 .baner_title {
-
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 64px;
-    width: 556px;
-
-    color: var(--accent-text-color);
-
-    margin: auto;
+width: 556px;
+text-align: center;
 }
 
 .baner_icon_mouse {
-    margin-top: 100px  ;
-    
+margin-top: 100px  ;
 }
 
 .baner_list {
-    padding-top: 200px;
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 21px;
-        text-align: center;
-        color:var(--text-color);
+margin-top: 200px;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color:var(--text-color);
+display: flex;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        padding-right: 75px;
+align-items: center;
+width: 100%;
+justify-content: space-between;
+}
+.baner_item{
+max-width: 255px;
+width: 100%;
 }
 .baner_maps {
     display: flex;
     align-items: center;
-    margin-right: 100px;
 }
 .baner_maps_img{
     margin-right: 18px;
